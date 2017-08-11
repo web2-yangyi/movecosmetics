@@ -1,0 +1,287 @@
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2){/* ����iphone4/4s */
+
+    .class{}
+
+}
+
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* ����iphone5 */
+
+    .class{}
+
+}
+
+ 
+
+@media (device-height:667px) and (-webkit-min-device-pixel-ratio:2){/* ����iphone6 */
+
+    .class{}
+
+}
+}
+.clearfix {
+	*zoom: 1;
+}
+
+.clearfix:after {
+	display: table;
+	clear: both;
+	content: "";
+}
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.small-bar {
+    padding: 0 15px;
+    display: block;
+    width: 100%;
+    text-align: center;
+  padding-top: 10px;
+    position: relative;
+    border-bottom: 1px solid #e5e5e5;
+}
+.small-bar .bars {
+    width: 32px;
+    height: 26px;
+    display: block;
+    margin-left: 1%;
+}
+.small-bar .bars i {
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 2px;
+    margin: 8px 0;
+    background-color: #666;
+}
+.col-xs-8 img{
+	margin-top: -48px;
+}
+/*big-nav*/
+.menu_list{
+    display: none;
+    position: absolute;
+    top:88px;
+    left: 0px;
+    width: 100%;
+    height: 1334px;
+    z-index: 999999;
+    background: #FFFFFF;
+}
+.menu_head{
+	width:100%;
+	line-height: 52px;
+	padding-left:20px;
+	font-size:18px;
+	color:#525252;
+	cursor:pointer;
+	border-bottom:1px solid #e1e1e1;
+	margin:0px;
+	}
+	.menu_head a{
+	color:#525252;
+	text-decoration:none;
+}	
+.menu_head{
+	background:url(../img/pro_left.png)90% center no-repeat;
+}
+.menu_list .current{
+	background:url(../img/pro_down.png)90% center no-repeat;
+	}
+.menu_body{
+	width:100%;
+	height:auto;
+	/*overflow:hidden;*/
+	line-height: 52px;
+	backguound:#fff;
+	}
+.menu_body a{
+	display:block;
+	width:100%;
+	line-height:52px;
+	padding-left:20px;
+	color:#777777;
+	background:#fff;
+	text-decoration:none;
+	border-bottom:1px solid #e1e1e1;
+	font-size:.875em;
+	}
+.menu_body a:hover{
+	text-decoration:none;
+}
+/*big-nav end*/
+.p1{
+  
+  margin-top:30px;
+  text-align:center;
+  font-size:1.6em;
+  font-weight:bold
+ 
+}
+
+
+
+
+
+.all{
+
+ width:98%; 
+
+}
+
+.b2,.b4,.b6{
+ width:46%;
+ float:left;
+ margin:3% 2% 1% 1%;
+ position:relative;
+ padding:0 0 8% 0;
+}
+
+.b1,.b3,.b5{
+  width:46%;
+ float:left;
+ margin:3% 1% 1% 2%;
+ position:relative;
+ padding:0 0 8% 0;
+
+}
+.pic2{
+position:absolute;
+ width:80%;
+z-index:-1;
+ margin-left:10%;
+
+}
+ .pic1{
+ width:65%;
+ height:100%;
+ margin-left:15%;
+
+}
+
+
+.pic1:hover{
+transform: scale(0.95,0.95);
+transition: all 0.2s ease-out;
+
+}
+
+.buy{
+  width:50%;
+  height:20px;
+  background:#b0743e;
+  font-size:0.1em;
+  line-height:20px;
+  text-align:center;
+  position:absolute;
+  border-radius:4px;
+  text-decoration:none;
+  color:white;
+  top:85%;
+  left:25%;
+}
+.p2{
+  font-size:0.4em;
+position:relative;
+ left:10%;
+
+}
+
+.qian{
+   color:#d9ac87;
+     font-size:1.6em; 
+  margin-left:2%;
+
+}
+.tiaozhuan ul{
+  width:90%;
+  height:30px;
+  margin:0 auto; 
+  padding-left:11.5%;
+  margin-bottom:20px;
+}
+.tiaozhuan ul li{
+ display:inline-block;
+ width:10%;
+ height:30px;
+ line-height:30px;
+ text-align:center;
+
+ margin:1%;font-size:1em;
+ border-radius:4px;
+  
+}
+.a2{
+  text-decoration:none;
+  color:white;
+}
+.li1{
+  background:#d9ac87;
+}
+.li2{
+  background:#d9ac87;
+}
+.li3{
+  background:#d9ac87;
+}
+.li4{
+  background:#d9ac87;
+}
+.li11{
+    background:#b0743e;
+}
+.li21{
+    background:#b0743e;
+}.li31{
+    background:#b0743e;
+}.li41{
+    background:#b0743e;
+}
+/*footer*/
+.footer-img{
+	width: 100%;
+	padding: 20px 0;
+}
+.footer-top-right1 {
+	padding-left: 40px;
+	text-align: center;
+}
+.footer-top-right2 {
+	text-align: center;
+	padding-right: 40px;
+}
+.footer-img p{
+	font-size: 0.8rem;
+}
+/*footer end*/
+/*footer-all*/
+.footer-all {
+	width: 100%;
+	background:#333333;
+}
+.footer {
+	margin: 0 auto;
+	width: 90%;
+    background:#333333;
+}
+.footer-middle {
+	height: 2px;
+	width: 100%;
+	border-radius: 2px;
+	background: #FFFFFF;
+}
+.footer-bottom {
+	padding: 16px 0px;
+	text-align: center;
+	color: #ffffff;
+	font-size:0.8rem;
+}
+.footer-top p {
+	font-size:0.8rem;
+	padding: 6px 0px;
+	color: #ffffff;
+}
